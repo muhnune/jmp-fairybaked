@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fairy Baked</string>
+    <string name="daftar_roti">Daftar Roti</string>
+    <string name="lihat_pesanan">Lihat Pesanan</string>
+    <string name="daftar_pesanan_masuk">Daftar Pesanan Masuk</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/item_border"> <TextView
+    android:id="@+id/tvNamaRoti"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Nama Roti"
+    android:textSize="18sp"
+    android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvDeskripsiRoti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi singkat roti."/>
+
+    <TextView
+        android:id="@+id/tvHargaRoti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp 10,000"
+        android:textStyle="italic"
+        android:layout_marginTop="4dp"/>
+
+    <Button
+        android:id="@+id/btnBeli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beli"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

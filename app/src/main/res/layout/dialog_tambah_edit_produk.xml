@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/etNamaProduk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Produk"
+        android:inputType="textCapWords"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etDeskripsiProduk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Deskripsi Singkat"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etHargaProduk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Harga (contoh: 15000)"
+        android:inputType="number"/>
+
+</LinearLayout>

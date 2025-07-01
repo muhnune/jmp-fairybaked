@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/item_border">
+
+    <TextView
+        android:id="@+id/tvNamaRoti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Roti"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvHargaRoti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp 10,000"
+        android:layout_marginTop="4dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="Edit"/>
+
+        <Button
+            android:id="@+id/btnHapus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="Hapus"/>
+    </LinearLayout>
+</LinearLayout>
